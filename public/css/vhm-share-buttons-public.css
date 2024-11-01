@@ -1,0 +1,62 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+/*
+@media (max-width: 576px) {
+	.vhm-share-buttons-list li {
+	 	display: inline-block !important;
+	 	width: 50% !important;
+	}
+}
+*/
+
+/* For desktops: */
+.vhm-share-buttons {
+	margin: 20px 0;
+}
+.vhm-share-buttons-list {
+ 	list-style-type: none;
+ 	padding: 0px;
+ 	margin: 5px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.vhm-share-buttons-list li a, 
+a#vhm-share-buttons-android, 
+.vhm-share-buttons-list li a:hover, 
+a#vhm-share-buttons-android:hover {
+ 	color: #fff;
+ 	padding: 8px 16px;
+ 	margin: 5px;
+ 	display: inline-block;
+ 	text-align: center;
+ 	text-decoration: none;
+}
+
+/* SOCIAL MEDIA COLORS */
+.vhm-share-buttons-list li a#vhm-share-buttons-facebook {
+ 	background: #3b5998;
+}
+.vhm-share-buttons-list li a#vhm-share-buttons-twitter {
+ 	background: #1DA1F2;
+}
+.vhm-share-buttons-list li a#vhm-share-buttons-google {
+ 	background: #DB4437;
+}
+.vhm-share-buttons-list li a#vhm-share-buttons-whatsapp {
+ 	background: #4dc247;
+}
+.vhm-share-buttons-list li a#vhm-share-buttons-telegram {
+ 	background: #0088cc;
+}
+.vhm-share-buttons-list li a#vhm-share-buttons-link {
+ 	background: grey;
+}
+#vhm-share-buttons-android {
+ 	display: block;
+	background: #9fc037;
+}
